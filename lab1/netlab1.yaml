@@ -1,6 +1,7 @@
 name: netlab1
 
 
+
 mgmt:
   network: statics
   ipv4_subnet: 172.20.20.0/24
