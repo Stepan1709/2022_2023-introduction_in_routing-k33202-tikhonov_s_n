@@ -1,0 +1,267 @@
+{
+  "name": "netlab2",
+  "type": "clab",
+  "clab": {
+    "config": {
+      "prefix": "clab",
+      "mgmt": {
+        "network": "statics",
+        "bridge": "br-4d8b626150da",
+        "ipv4-subnet": "172.20.20.0/24",
+        "ipv4-gw": "172.20.20.1",
+        "mtu": "1500",
+        "external-access": true
+      }
+    }
+  },
+  "nodes": {
+    "PC1": {
+      "index": "0",
+      "shortname": "PC1",
+      "longname": "clab-netlab2-PC1",
+      "fqdn": "PC1.netlab2.io",
+      "group": "",
+      "labdir": "/home/step1709/Desktop/labs/lab2/clab-netlab2/PC1",
+      "kind": "vr-ros",
+      "image": "vrnetlab/vr-routeros:6_47_9",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.5",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "",
+      "mgmt-ipv6-prefix-length": 0,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-4d8b626150da",
+        "clab-node-group": "",
+        "clab-node-kind": "vr-ros",
+        "clab-node-lab-dir": "/home/step1709/Desktop/labs/lab2/clab-netlab2/PC1",
+        "clab-node-name": "PC1",
+        "clab-node-type": "",
+        "clab-topo-file": "/home/step1709/Desktop/labs/lab2/netlab2.clab.yaml",
+        "containerlab": "netlab2"
+      }
+    },
+    "PC2": {
+      "index": "1",
+      "shortname": "PC2",
+      "longname": "clab-netlab2-PC2",
+      "fqdn": "PC2.netlab2.io",
+      "group": "",
+      "labdir": "/home/step1709/Desktop/labs/lab2/clab-netlab2/PC2",
+      "kind": "vr-ros",
+      "image": "vrnetlab/vr-routeros:6_47_9",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.6",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "",
+      "mgmt-ipv6-prefix-length": 0,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-4d8b626150da",
+        "clab-node-group": "",
+        "clab-node-kind": "vr-ros",
+        "clab-node-lab-dir": "/home/step1709/Desktop/labs/lab2/clab-netlab2/PC2",
+        "clab-node-name": "PC2",
+        "clab-node-type": "",
+        "clab-topo-file": "/home/step1709/Desktop/labs/lab2/netlab2.clab.yaml",
+        "containerlab": "netlab2"
+      }
+    },
+    "PC3": {
+      "index": "2",
+      "shortname": "PC3",
+      "longname": "clab-netlab2-PC3",
+      "fqdn": "PC3.netlab2.io",
+      "group": "",
+      "labdir": "/home/step1709/Desktop/labs/lab2/clab-netlab2/PC3",
+      "kind": "vr-ros",
+      "image": "vrnetlab/vr-routeros:6_47_9",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.7",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "",
+      "mgmt-ipv6-prefix-length": 0,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-4d8b626150da",
+        "clab-node-group": "",
+        "clab-node-kind": "vr-ros",
+        "clab-node-lab-dir": "/home/step1709/Desktop/labs/lab2/clab-netlab2/PC3",
+        "clab-node-name": "PC3",
+        "clab-node-type": "",
+        "clab-topo-file": "/home/step1709/Desktop/labs/lab2/netlab2.clab.yaml",
+        "containerlab": "netlab2"
+      }
+    },
+    "R01.BRL": {
+      "index": "3",
+      "shortname": "R01.BRL",
+      "longname": "clab-netlab2-R01.BRL",
+      "fqdn": "R01.BRL.netlab2.io",
+      "group": "",
+      "labdir": "/home/step1709/Desktop/labs/lab2/clab-netlab2/R01.BRL",
+      "kind": "vr-ros",
+      "image": "vrnetlab/vr-routeros:6_47_9",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.3",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "",
+      "mgmt-ipv6-prefix-length": 0,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-4d8b626150da",
+        "clab-node-group": "",
+        "clab-node-kind": "vr-ros",
+        "clab-node-lab-dir": "/home/step1709/Desktop/labs/lab2/clab-netlab2/R01.BRL",
+        "clab-node-name": "R01.BRL",
+        "clab-node-type": "",
+        "clab-topo-file": "/home/step1709/Desktop/labs/lab2/netlab2.clab.yaml",
+        "containerlab": "netlab2"
+      }
+    },
+    "R01.FRT": {
+      "index": "4",
+      "shortname": "R01.FRT",
+      "longname": "clab-netlab2-R01.FRT",
+      "fqdn": "R01.FRT.netlab2.io",
+      "group": "",
+      "labdir": "/home/step1709/Desktop/labs/lab2/clab-netlab2/R01.FRT",
+      "kind": "vr-ros",
+      "image": "vrnetlab/vr-routeros:6_47_9",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.4",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "",
+      "mgmt-ipv6-prefix-length": 0,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-4d8b626150da",
+        "clab-node-group": "",
+        "clab-node-kind": "vr-ros",
+        "clab-node-lab-dir": "/home/step1709/Desktop/labs/lab2/clab-netlab2/R01.FRT",
+        "clab-node-name": "R01.FRT",
+        "clab-node-type": "",
+        "clab-topo-file": "/home/step1709/Desktop/labs/lab2/netlab2.clab.yaml",
+        "containerlab": "netlab2"
+      }
+    },
+    "R01.MSK": {
+      "index": "5",
+      "shortname": "R01.MSK",
+      "longname": "clab-netlab2-R01.MSK",
+      "fqdn": "R01.MSK.netlab2.io",
+      "group": "",
+      "labdir": "/home/step1709/Desktop/labs/lab2/clab-netlab2/R01.MSK",
+      "kind": "vr-ros",
+      "image": "vrnetlab/vr-routeros:6_47_9",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.2",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "",
+      "mgmt-ipv6-prefix-length": 0,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-4d8b626150da",
+        "clab-node-group": "",
+        "clab-node-kind": "vr-ros",
+        "clab-node-lab-dir": "/home/step1709/Desktop/labs/lab2/clab-netlab2/R01.MSK",
+        "clab-node-name": "R01.MSK",
+        "clab-node-type": "",
+        "clab-topo-file": "/home/step1709/Desktop/labs/lab2/netlab2.clab.yaml",
+        "containerlab": "netlab2"
+      }
+    }
+  },
+  "links": [
+    {
+      "a": {
+        "node": "R01.MSK",
+        "interface": "eth2",
+        "mac": "aa:c1:ab:86:69:6f",
+        "peer": "z"
+      },
+      "z": {
+        "node": "R01.FRT",
+        "interface": "eth2",
+        "mac": "aa:c1:ab:2a:b9:36",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "R01.MSK",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:9d:d4:80",
+        "peer": "z"
+      },
+      "z": {
+        "node": "R01.BRL",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:db:ea:f0",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "R01.BRL",
+        "interface": "eth2",
+        "mac": "aa:c1:ab:52:fe:5f",
+        "peer": "z"
+      },
+      "z": {
+        "node": "R01.FRT",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:39:a2:bf",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "R01.MSK",
+        "interface": "eth3",
+        "mac": "aa:c1:ab:e1:31:3a",
+        "peer": "z"
+      },
+      "z": {
+        "node": "PC1",
+        "interface": "eth3",
+        "mac": "aa:c1:ab:bb:f6:50",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "R01.FRT",
+        "interface": "eth3",
+        "mac": "aa:c1:ab:02:25:a7",
+        "peer": "z"
+      },
+      "z": {
+        "node": "PC2",
+        "interface": "eth3",
+        "mac": "aa:c1:ab:b6:0b:3f",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "R01.BRL",
+        "interface": "eth3",
+        "mac": "aa:c1:ab:71:5f:0c",
+        "peer": "z"
+      },
+      "z": {
+        "node": "PC3",
+        "interface": "eth3",
+        "mac": "aa:c1:ab:bf:04:51",
+        "peer": "a"
+      }
+    }
+  ]
+}
