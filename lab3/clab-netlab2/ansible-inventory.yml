@@ -1,0 +1,20 @@
+all:
+  children:
+    vr-ros:
+      hosts:
+        clab-netlab2-PC1:
+          ansible_host: 172.20.20.8
+        clab-netlab2-R01.HKI:
+          ansible_host: 172.20.20.4
+        clab-netlab2-R01.LBN:
+          ansible_host: 172.20.20.6
+        clab-netlab2-R01.LND:
+          ansible_host: 172.20.20.5
+        clab-netlab2-R01.MSK:
+          ansible_host: 172.20.20.3
+        clab-netlab2-R01.NY:
+          ansible_host: 172.20.20.7
+        clab-netlab2-R01.SPB:
+          ansible_host: 172.20.20.2
+        clab-netlab2-SGI_Prism:
+          ansible_host: 172.20.20.9
