@@ -8,47 +8,47 @@ topology:
   nodes:
     R01.NY:
       kind: vr-mikrotik_ros
-      image: vrnetlab/vr-routeros:6.47.9
+      image: vrnetlab/vr-routeros:6_47_9
       mgmt_ipv4: 172.20.20.2
 
     R01.LND:
       kind: vr-mikrotik_ros
-      image: vrnetlab/vr-routeros:6.47.9
+      image: vrnetlab/vr-routeros:6_47_9
       mgmt_ipv4: 172.20.20.3
 
     R01.HKI:
       kind: vr-mikrotik_ros
-      image: vrnetlab/vr-routeros:6.47.9
+      image: vrnetlab/vr-routeros:6_47_9
       mgmt_ipv4: 172.20.20.4
 
     R01.SPB:
       kind: vr-mikrotik_ros
-      image: vrnetlab/vr-routeros:6.47.9
+      image: vrnetlab/vr-routeros:6_47_9
       mgmt_ipv4: 172.20.20.5
 
     R01.LBN:
       kind: vr-mikrotik_ros
-      image: vrnetlab/vr-routeros:6.47.9
+      image: vrnetlab/vr-routeros:6_47_9
       mgmt_ipv4: 172.20.20.6
 
     R01.SVL:
       kind: vr-mikrotik_ros
-      image: vrnetlab/vr-routeros:6.47.9
+      image: vrnetlab/vr-routeros:6_47_9
       mgmt_ipv4: 172.20.20.7
 
     PC1:
       kind: vr-mikrotik_ros
-      image: vrnetlab/vr-routeros:6.47.9
+      image: vrnetlab/vr-routeros:6_47_9
       mgmt_ipv4: 172.20.20.8
 
     PC2:
       kind: vr-mikrotik_ros
-      image: vrnetlab/vr-routeros:6.47.9
+      image: vrnetlab/vr-routeros:6_47_9
       mgmt_ipv4: 172.20.20.9
 
     PC3:
       kind: vr-mikrotik_ros
-      image: vrnetlab/vr-routeros:6.47.9
+      image: vrnetlab/vr-routeros:6_47_9
       mgmt_ipv4: 172.20.20.10
   
 

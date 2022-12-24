@@ -1,0 +1,22 @@
+all:
+  children:
+    vr-mikrotik_ros:
+      hosts:
+        clab-lab4-PC1:
+          ansible_host: 172.20.20.8
+        clab-lab4-PC2:
+          ansible_host: 172.20.20.9
+        clab-lab4-PC3:
+          ansible_host: 172.20.20.10
+        clab-lab4-R01.HKI:
+          ansible_host: 172.20.20.4
+        clab-lab4-R01.LBN:
+          ansible_host: 172.20.20.6
+        clab-lab4-R01.LND:
+          ansible_host: 172.20.20.3
+        clab-lab4-R01.NY:
+          ansible_host: 172.20.20.2
+        clab-lab4-R01.SPB:
+          ansible_host: 172.20.20.5
+        clab-lab4-R01.SVL:
+          ansible_host: 172.20.20.7
