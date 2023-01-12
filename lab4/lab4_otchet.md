@@ -24,7 +24,7 @@
 
 #### **1** Схема настраеваемой сети:
 
-![](https://github.com/Stepan1709/2022_2023-introduction_in_routing-k33202-tikhonov_s_n/blob/main/lab4/Pics/NETWORK_SCHEMA.PNG "Схема сети")
+![](https://github.com/Stepan1709/2022_2023-introduction_in_routing-k33202-tikhonov_s_n/blob/main/lab4/Pics/NETWOR_SCHEMAK.PNG "Схема сети")
 
 ***
 
