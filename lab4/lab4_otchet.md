@@ -24,7 +24,7 @@
 
 #### **1** Схема настраеваемой сети:
 
-![](https://github.com/Stepan1709/2022_2023-introduction_in_routing-k33202-tikhonov_s_n/blob/main/lab4/Network.PNG "Схема сети")
+![](https://github.com/Stepan1709/2022_2023-introduction_in_routing-k33202-tikhonov_s_n/blob/main/lab4/Pics/NETWORK_SCHEMA.PNG "Схема сети")
 
 ***
 
@@ -302,9 +302,9 @@ set name=R01.HKI
 
 ####  Результаты проверки VRF связанности
 
-![](https://github.com/Stepan1709/2022_2023-introduction_in_routing-k33202-tikhonov_s_n/blob/main/lab4/NY.jpg "Результаты")
-![](https://github.com/Stepan1709/2022_2023-introduction_in_routing-k33202-tikhonov_s_n/blob/main/lab4/SPB.jpg "Результаты")
-![](https://github.com/Stepan1709/2022_2023-introduction_in_routing-k33202-tikhonov_s_n/blob/main/lab4/SVL.jpg "Результаты")
+![](https://github.com/Stepan1709/2022_2023-introduction_in_routing-k33202-tikhonov_s_n/blob/main/lab4/Pics/NY.jpg "Результаты")
+![](https://github.com/Stepan1709/2022_2023-introduction_in_routing-k33202-tikhonov_s_n/blob/main/lab4/Pics/SPB.jpg "Результаты")
+![](https://github.com/Stepan1709/2022_2023-introduction_in_routing-k33202-tikhonov_s_n/blob/main/lab4/Pics/SVL.jpg "Результаты")
 
 ***
 
@@ -466,9 +466,12 @@ set name=PC3
 
 ####  Результаты проверки связанности PC
 
-![](https://github.com/Stepan1709/2022_2023-introduction_in_routing-k33202-tikhonov_s_n/blob/main/lab4/NY.jpg "Результаты")
-![](https://github.com/Stepan1709/2022_2023-introduction_in_routing-k33202-tikhonov_s_n/blob/main/lab4/SPB.jpg "Результаты")
-![](https://github.com/Stepan1709/2022_2023-introduction_in_routing-k33202-tikhonov_s_n/blob/main/lab4/SVL.jpg "Результаты")
+![](https://github.com/Stepan1709/2022_2023-introduction_in_routing-k33202-tikhonov_s_n/blob/main/lab4/Pics/PC3.jpeg "Результаты")
+![](https://github.com/Stepan1709/2022_2023-introduction_in_routing-k33202-tikhonov_s_n/blob/main/lab4/Pics/PC2.jpeg "Результаты")
+![](https://github.com/Stepan1709/2022_2023-introduction_in_routing-k33202-tikhonov_s_n/blob/main/lab4/Pics/PC1.jpeg "Результаты")
 
 ***
 
+
+### **Вывод:**
+В результате работы были изучены протоколы OSPF и MPLS, а также правила организации L3VPN и VPLS.
