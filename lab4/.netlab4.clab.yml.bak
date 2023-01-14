@@ -53,12 +53,12 @@ topology:
   
 
   links: 
-    - endpoints: ["R01.NY:eth4","PC2:eth4"] 
+    - endpoints: ["R01.NY:eth1","PC2:eth1"] 
     - endpoints: ["R01.NY:eth3","R01.LND:eth3"] 
     - endpoints: ["R01.LND:eth1","R01.HKI:eth2"]     
     - endpoints: ["R01.LND:eth2","R01.LBN:eth1"] 
     - endpoints: ["R01.LBN:eth2","R01.HKI:eth1"] 
     - endpoints: ["R01.LBN:eth3","R01.SVL:eth3"] 
-    - endpoints: ["R01.SVL:eth4","PC3:eth4"]  
+    - endpoints: ["R01.SVL:eth1","PC3:eth1"]  
     - endpoints: ["R01.HKI:eth3","R01.SPB:eth3"]  
-    - endpoints: ["R01.SPB:eth4","PC1:eth4"] 
+    - endpoints: ["R01.SPB:eth1","PC1:eth1"] 
